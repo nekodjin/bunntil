@@ -1,0 +1,11 @@
+[package]
+name = "until"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.68.2"
+
+[dependencies]
+anyhow = "1.0.70"
+chrono = "0.4.24"
+clap = { version = "4.2.1", features = ["derive"] }
+crossterm = "0.26.1"
